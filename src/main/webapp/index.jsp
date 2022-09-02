@@ -32,6 +32,7 @@
 
       <!-- You only need to change these information, starts here! -->
       <p>Here is the information you need to change:</p>
+      <p>Thinh</p>
       <span class="badge badge-primary">Diep The Thinh</span>
       <br>
       <span class="badge badge-secondary">s3825459</span>
