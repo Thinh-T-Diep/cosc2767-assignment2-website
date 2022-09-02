@@ -23,4 +23,5 @@ yum install jenkins -y
 service jenkins start
 
 #Get admin password to start Jenkins
+echo "Initial admin Password:"
 cat /var/lib/jenkins/secrets/initialAdminPassword
