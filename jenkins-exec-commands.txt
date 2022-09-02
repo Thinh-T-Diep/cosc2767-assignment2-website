@@ -1,0 +1,5 @@
+cd /home/dockeradmin;
+docker build -t thinhtdiep/tomcat-image-s3825459 .;
+docker stop tomcat-container;
+docker rm tomcat-container;
+docker run -d --name tomcat-container -p 8081:8080 thinhtdiep/tomcat-image-s3825459;
