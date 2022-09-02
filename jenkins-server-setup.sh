@@ -11,5 +11,5 @@ mv apache-maven-3.8.6 maven
 
 #Copying bash profile for maven and Java path
 cd ~
-cp /cosc2767-assignment2-website/.bash_profile .
+cp ~/cosc2767-assignment2-website/.bash_profile .
 source .bash_profile
