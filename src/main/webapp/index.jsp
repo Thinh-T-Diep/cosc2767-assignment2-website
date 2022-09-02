@@ -11,7 +11,7 @@
   <body>
     <!-- The content of the website starts here now! -->
     <div class="jumbotron">
-      <h1 class="display-4">This is the Assignment 2!</h1>
+      <h1 class="display-4">This is the Assignment 45!</h1>
       <p>Show these steps in the video recording:</p>
       <p>
         <span class="badge badge-info">Step 1</span> Please fork this github repository to your own github (with your RMIT's email account)!
