@@ -13,3 +13,14 @@ mv apache-maven-3.8.6 maven
 cd ~
 cp ~/cosc2767-assignment2-website/.bash_profile .
 source .bash_profile
+
+#Downloading and installing Jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install jenkins -y
+
+#Start Jenkins
+service jenkins start
+
+#Get admin password to start Jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
