@@ -17,3 +17,8 @@ usermod -aG docker dockeradmin
 cd ~
 cp ~/cosc2767-assignment2-website/sshd_config /etc/ssh/
 service sshd reload
+
+#Copy the prepared context and user configuration files into the Tomcat app
+cp ~/cosc2767-assignment2-website/context.xml /opt/tomcat/webapps/host-manager/META-INF/
+cp ~/cosc2767-assignment2-website/context.xml /opt/tomcat/webapps/manager/META-INF/
+cp ~/cosc2767-assignment2-website/tomcat-users.xml /opt/tomcat/conf/
